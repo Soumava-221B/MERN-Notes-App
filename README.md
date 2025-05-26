@@ -14,3 +14,8 @@ An endpoint is a combination of a URL + HTTP method that lets the client interac
 
 8. npm i dotenv
 9. npm i mongoose@latest
+
+10. middlewares are used to for auth check
+11. Using upstash for rate limiting (to prevent the server crash due too many request in small amount of time)
+12. npm i @upstash/ratelimit@2.0.5 @upstash/redis@1.34.9
+13. Status: 429 means too many requests
