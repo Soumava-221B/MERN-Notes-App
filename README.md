@@ -1,4 +1,6 @@
 # Commands used in the project in sequential manner
+
+## Backened setup guide step-by-step
 1. cd backend -> npm init -y
 2. npm install express@4.18.2
 3. node server.js
@@ -19,3 +21,12 @@ An endpoint is a combination of a URL + HTTP method that lets the client interac
 11. Using upstash for rate limiting (to prevent the server crash due too many request in small amount of time)
 12. npm i @upstash/ratelimit@2.0.5 @upstash/redis@1.34.9
 13. Status: 429 means too many requests
+
+## Front-end setup guide step-by-step
+Change the directory to front-end
+1. Initialize the front-end: ```npm create vite@latest .```
+2. press y to proceed then select React as framework and JavaScript variant
+3. install node package with ```npm install```
+4. For routes ```npm i react-router```
+5. For react notification library: ```npm i react-hot-toast```
+6. For Tailwindcss components: daisyUI ```npm i daisyui@4.12.24 -D```
