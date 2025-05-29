@@ -29,4 +29,7 @@ Change the directory to front-end
 3. install node package with ```npm install```
 4. For routes ```npm i react-router```
 5. For react notification library: ```npm i react-hot-toast```
-6. For Tailwindcss components: daisyUI ```npm i daisyui@4.12.24 -D```
+6. Install and configure Tailwind CSS with Vite: "https://v3.tailwindcss.com/docs/guides/vite"
+7. For Tailwindcss components: daisyUI("https://v4.daisyui.com/docs/install/") ```npm i daisyui@4.12.24 -D```
+8. Install react icons library ```npm i lucide-react```
+9. Install Axios(Promise based HTTP client) for browser and node.js ```npm i axios```
