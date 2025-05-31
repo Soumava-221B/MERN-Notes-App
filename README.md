@@ -21,6 +21,7 @@ An endpoint is a combination of a URL + HTTP method that lets the client interac
 11. Using upstash for rate limiting (to prevent the server crash due too many request in small amount of time)
 12. npm i @upstash/ratelimit@2.0.5 @upstash/redis@1.34.9
 13. Status: 429 means too many requests
+14. For fronted calling API(Cross-Origin Resource Sharing): ```npm i cors```
 
 ## Front-end setup guide step-by-step
 Change the directory to front-end
@@ -33,3 +34,6 @@ Change the directory to front-end
 7. For Tailwindcss components: daisyUI("https://v4.daisyui.com/docs/install/") ```npm i daisyui@4.12.24 -D```
 8. Install react icons library ```npm i lucide-react```
 9. Install Axios(Promise based HTTP client) for browser and node.js ```npm i axios```
+10. TailwindCSS: p-4 and size-5
+11. Used in the HomePage: useState and useEffect
+useEffect to fetch the notes and useState to update notes, loading and rateLimiting
